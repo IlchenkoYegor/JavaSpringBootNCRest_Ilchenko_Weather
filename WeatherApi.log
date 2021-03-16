@@ -1,0 +1,919 @@
+2021-03-16 01:45:16.234  INFO 14332 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 14332 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 01:45:16.251  INFO 14332 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 01:45:17.623  INFO 14332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$dd59f91c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 01:45:17.924  INFO 14332 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 01:45:18.738  INFO 14332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 01:45:18.746  INFO 14332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 01:45:18.746  INFO 14332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 01:45:18.857  INFO 14332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 01:45:18.858  INFO 14332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2358 ms
+2021-03-16 01:45:19.081  INFO 14332 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 01:45:19.369  INFO 14332 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 01:45:19.370  INFO 14332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 01:45:19.383  INFO 14332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 01:45:19.866  WARN 14332 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 01:45:20.143  INFO 14332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 01:45:20.165  INFO 14332 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 4.492 seconds (JVM running for 6.675)
+2021-03-16 01:45:23.715  INFO 14332 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 01:45:23.716  INFO 14332 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 01:45:23.717  INFO 14332 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 01:45:26.588  INFO 14332 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.588  INFO 14332 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.828  INFO 14332 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.828  INFO 14332 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.832  INFO 14332 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.832  INFO 14332 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.981 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.981 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.981 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.981 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982 ERROR 14332 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:45:26.982  INFO 14332 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:26.982  INFO 14332 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:27.276  INFO 14332 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:45:27.276  INFO 14332 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:10.336  INFO 19564 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 19564 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 01:46:10.340  INFO 19564 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 01:46:10.952  INFO 19564 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5bada9f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 01:46:11.001  INFO 19564 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 01:46:11.205  INFO 19564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 01:46:11.211  INFO 19564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 01:46:11.212  INFO 19564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 01:46:11.298  INFO 19564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 01:46:11.299  INFO 19564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2021-03-16 01:46:11.420  INFO 19564 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 01:46:11.579  INFO 19564 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 01:46:11.579  INFO 19564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 01:46:11.584  INFO 19564 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 01:46:11.955  WARN 19564 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 01:46:12.156  INFO 19564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 01:46:12.167  INFO 19564 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.131 seconds (JVM running for 3.492)
+2021-03-16 01:46:15.912  INFO 19564 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 01:46:15.913  INFO 19564 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 01:46:15.915  INFO 19564 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-03-16 01:46:16.431  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:16.431  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:16.536  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:16.536  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:16.843  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:16.843  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:17.039 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.039 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.040 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:17.041  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:17.041  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:17.041  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:17.041  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:28.831  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:28.832  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:28.911  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:28.911  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.173  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.173  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.279  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.279  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.449 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.449 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.450 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.450 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.450 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.450 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.451 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.451 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.451 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:29.451  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:29.451  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:53.898  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:53.898  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.042  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.043  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.363  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.363  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.427  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.427  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.529 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.530 ERROR 19564 --- [AsynchThread-3] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:54.530  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:54.530  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.192  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.193  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.249  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.249  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.517  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.517  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.786  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.786  INFO 19564 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.836 ERROR 19564 --- [AsynchThread-1] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:46:57.837  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:46:57.837  INFO 19564 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:32.700 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 01:50:33.004  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:33.005  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:33.581 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472 ERROR 19564 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:50:34.472  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:34.473  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:34.999  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:50:34.999  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:30.280  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:30.281  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:30.528  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:30.528  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:31.280  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:31.280  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:32.149 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150 ERROR 19564 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:52:32.150  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:32.150  INFO 19564 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:32.677  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:52:32.677  INFO 19564 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:33.970  INFO 11052 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 11052 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 01:53:33.979  INFO 11052 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 01:53:34.721  INFO 11052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9e7b65d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 01:53:34.778  INFO 11052 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 01:53:34.989  INFO 11052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 01:53:34.995  INFO 11052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 01:53:34.995  INFO 11052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 01:53:35.082  INFO 11052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 01:53:35.082  INFO 11052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2021-03-16 01:53:35.205  INFO 11052 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 01:53:35.360  INFO 11052 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 01:53:35.360  INFO 11052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 01:53:35.365  INFO 11052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 01:53:35.753  WARN 11052 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 01:53:35.950  INFO 11052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 01:53:35.960  INFO 11052 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.341 seconds (JVM running for 3.635)
+2021-03-16 01:53:41.697  INFO 11052 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 01:53:41.699  INFO 11052 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 01:53:41.700  INFO 11052 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 01:53:42.278  INFO 11052 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:42.278  INFO 11052 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:42.580  INFO 11052 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:42.581  INFO 11052 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:42.807  INFO 11052 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:42.807  INFO 11052 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:43.095  INFO 11052 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:43.095  INFO 11052 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:43.656 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.656 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.656 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.656 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.656 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.657 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.657 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.657 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.657 ERROR 11052 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:53:43.657  INFO 11052 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:53:43.657  INFO 11052 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:50.939  INFO 11052 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:50.939  INFO 11052 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:50.986  INFO 11052 --- [AsynchThread-11] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:50.986  INFO 11052 --- [AsynchThread-11] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.221  INFO 11052 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.221  INFO 11052 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.334  INFO 11052 --- [AsynchThread-13] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.334  INFO 11052 --- [AsynchThread-13] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.521 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522 ERROR 11052 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:54:51.522  INFO 11052 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:54:51.522  INFO 11052 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.423  INFO 11052 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.423  INFO 11052 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.636  INFO 11052 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.636  INFO 11052 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.694 ERROR 11052 --- [AsynchThread-23] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 01:55:04.844  INFO 11052 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.844  INFO 11052 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.996 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.997 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.997 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.997 ERROR 11052 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:04.997  INFO 11052 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:04.997  INFO 11052 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.180  INFO 11052 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.180  INFO 11052 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.194  INFO 11052 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.195  INFO 11052 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.400  INFO 11052 --- [AsynchThread-35] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.400  INFO 11052 --- [AsynchThread-35] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.477 ERROR 11052 --- [AsynchThread-33] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749 ERROR 11052 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:30.749  INFO 11052 --- [AsynchThread-34] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:30.749  INFO 11052 --- [AsynchThread-34] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:42.870  INFO 11052 --- [AsynchThread-6] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:42.870  INFO 11052 --- [AsynchThread-6] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:42.941  INFO 11052 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:42.941  INFO 11052 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:43.122  INFO 11052 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:43.122  INFO 11052 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:43.127 ERROR 11052 --- [AsynchThread-7] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.444 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.446 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.446 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.446 ERROR 11052 --- [AsynchThread-2] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:55:43.446  INFO 11052 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:55:43.446  INFO 11052 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:07.594  INFO 13012 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 13012 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 01:56:07.596  INFO 13012 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 01:56:08.281  INFO 13012 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c720e59e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 01:56:08.329  INFO 13012 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 01:56:08.548  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 01:56:08.557  INFO 13012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 01:56:08.558  INFO 13012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 01:56:08.657  INFO 13012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 01:56:08.657  INFO 13012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 960 ms
+2021-03-16 01:56:08.783  INFO 13012 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 01:56:08.928  INFO 13012 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 01:56:08.929  INFO 13012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 01:56:08.934  INFO 13012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 01:56:09.311  WARN 13012 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 01:56:09.520  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 01:56:09.530  INFO 13012 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.342 seconds (JVM running for 3.516)
+2021-03-16 01:56:14.704  INFO 13012 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 01:56:14.706  INFO 13012 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 01:56:14.707  INFO 13012 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 01:56:14.839 ERROR 13012 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured (timeout exceeded)java.util.concurrent.TimeoutException method weatherService
+2021-03-16 01:56:15.284  INFO 13012 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.284  INFO 13012 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.304  INFO 13012 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.304  INFO 13012 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.479 ERROR 13012 --- [AsynchThread-3] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 01:56:15.517  INFO 13012 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.518  INFO 13012 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.868 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.868 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869 ERROR 13012 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 01:56:15.869  INFO 13012 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 01:56:15.870  INFO 13012 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 13:06:04.555  INFO 20160 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 20160 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:06:04.574  INFO 20160 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:06:05.513  INFO 20160 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5b6aeb9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:06:05.606  INFO 20160 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:06:05.861  INFO 20160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:06:05.868  INFO 20160 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:06:05.868  INFO 20160 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:06:05.997  INFO 20160 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:06:05.997  INFO 20160 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1354 ms
+2021-03-16 13:06:06.150  INFO 20160 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:06:06.311  INFO 20160 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:06:06.311  INFO 20160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:06:06.317  INFO 20160 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:06:06.723  WARN 20160 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:06:06.948  INFO 20160 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:06:07.001  INFO 20160 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.86 seconds (JVM running for 6.12)
+2021-03-16 13:06:46.637  INFO 20160 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:06:46.638  INFO 20160 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:06:46.639  INFO 20160 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 13:06:49.727 ERROR 20160 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:07:10.803  INFO 10120 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 10120 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:07:10.805  INFO 10120 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:07:11.455  INFO 10120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f53ecd11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:07:11.506  INFO 10120 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:07:11.734  INFO 10120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:07:11.740  INFO 10120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:07:11.741  INFO 10120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:07:11.842  INFO 10120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:07:11.842  INFO 10120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 977 ms
+2021-03-16 13:07:11.969  INFO 10120 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:07:12.120  INFO 10120 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:07:12.120  INFO 10120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:07:12.125  INFO 10120 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:07:12.525  WARN 10120 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:07:12.737  INFO 10120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:07:12.746  INFO 10120 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.294 seconds (JVM running for 3.69)
+2021-03-16 13:07:18.173  INFO 10120 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:07:18.174  INFO 10120 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:07:18.176  INFO 10120 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 13:07:23.224 ERROR 10120 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:08:02.621 ERROR 10120 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:09:35.457  INFO 22752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 22752 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:09:35.459  INFO 22752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:09:36.127  INFO 22752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c720e59e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:09:36.173  INFO 22752 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:09:36.385  INFO 22752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:09:36.391  INFO 22752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:09:36.392  INFO 22752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:09:36.630  INFO 22752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:09:36.631  INFO 22752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1124 ms
+2021-03-16 13:09:36.767  INFO 22752 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:09:36.922  INFO 22752 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:09:36.922  INFO 22752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:09:36.927  INFO 22752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:09:37.320  WARN 22752 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:09:37.539  INFO 22752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:09:37.549  INFO 22752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.449 seconds (JVM running for 4.136)
+2021-03-16 13:09:40.688  INFO 22752 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:09:40.689  INFO 22752 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:09:40.690  INFO 22752 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 13:09:49.739 ERROR 22752 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:10:42.447 ERROR 22752 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:10:54.081 ERROR 22752 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:11:27.409  INFO 17708 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 17708 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:11:27.413  INFO 17708 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:11:28.045  INFO 17708 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6594693c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:11:28.102  INFO 17708 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:11:28.321  INFO 17708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:11:28.330  INFO 17708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:11:28.330  INFO 17708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:11:28.428  INFO 17708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:11:28.438  INFO 17708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 976 ms
+2021-03-16 13:11:28.571  INFO 17708 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:11:28.722  INFO 17708 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:11:28.722  INFO 17708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:11:28.728  INFO 17708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:11:29.136  WARN 17708 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:11:29.352  INFO 17708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:11:29.361  INFO 17708 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.381 seconds (JVM running for 3.795)
+2021-03-16 13:11:35.387  INFO 17708 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:11:35.389  INFO 17708 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:11:35.390  INFO 17708 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 13:11:56.430 ERROR 17708 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.util.concurrent.TimeoutException were occured wrong parameters java.util.concurrent.TimeoutException method weatherService
+2021-03-16 13:25:10.976  INFO 2244 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 2244 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:25:10.978  INFO 2244 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:25:11.600  INFO 2244 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$31a9fe1c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:25:11.707  INFO 2244 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:25:12.020  INFO 2244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:25:12.027  INFO 2244 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:25:12.027  INFO 2244 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:25:12.139  INFO 2244 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:25:12.140  INFO 2244 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1126 ms
+2021-03-16 13:25:12.270  INFO 2244 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:25:12.431  INFO 2244 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:25:12.432  INFO 2244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:25:12.436  INFO 2244 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:25:12.969  WARN 2244 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:25:13.231  INFO 2244 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:25:13.243  INFO 2244 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.595 seconds (JVM running for 4.221)
+2021-03-16 13:25:16.120  INFO 2244 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:25:16.122  INFO 2244 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:25:16.123  INFO 2244 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 13:25:18.194 ERROR 2244 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:25:18.194 ERROR 2244 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:25:18.194 ERROR 2244 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:32:44.062  INFO 12452 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 12452 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 13:32:44.067  INFO 12452 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 13:32:44.750  INFO 12452 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$858ba291] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 13:32:44.798  INFO 12452 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 13:32:45.008  INFO 12452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 13:32:45.014  INFO 12452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 13:32:45.015  INFO 12452 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 13:32:45.116  INFO 12452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 13:32:45.117  INFO 12452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2021-03-16 13:32:45.283  INFO 12452 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 13:32:45.473  INFO 12452 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 13:32:45.474  INFO 12452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 13:32:45.479  INFO 12452 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 13:32:45.936  WARN 12452 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 13:32:46.168  INFO 12452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 13:32:46.177  INFO 12452 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.443 seconds (JVM running for 4.659)
+2021-03-16 13:32:47.643  INFO 12452 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 13:32:47.645  INFO 12452 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 13:32:47.646  INFO 12452 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-03-16 13:32:49.202 ERROR 12452 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:32:49.203 ERROR 12452 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:32:49.203 ERROR 12452 --- [AsynchThread-7] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:33:25.153 ERROR 12452 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 13:34:28.874 ERROR 12452 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 13:35:03.248 ERROR 12452 --- [http-nio-9090-exec-5] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 13:35:07.804 ERROR 12452 --- [http-nio-9090-exec-6] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 13:35:09.804 ERROR 12452 --- [http-nio-9090-exec-7] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 13:35:16.717 ERROR 12452 --- [http-nio-9090-exec-8] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 13:38:18.231 ERROR 12452 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:09:49.879  INFO 15428 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 15428 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:09:49.885  INFO 15428 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:09:50.714  INFO 15428 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9e7b65d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:09:50.766  INFO 15428 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:09:51.052  INFO 15428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:09:51.060  INFO 15428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:09:51.060  INFO 15428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:09:51.166  INFO 15428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:09:51.166  INFO 15428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+2021-03-16 14:09:51.295  INFO 15428 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:09:51.448  INFO 15428 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:09:51.448  INFO 15428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:09:51.453  INFO 15428 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:09:51.841  WARN 15428 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:09:52.040  INFO 15428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:09:52.050  INFO 15428 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.572 seconds (JVM running for 4.102)
+2021-03-16 14:10:12.304  INFO 15428 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:10:12.306  INFO 15428 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:10:12.307  INFO 15428 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 14:10:13.265 ERROR 15428 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:10:33.393 ERROR 15428 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : null was occured, probably because of the wrong parameters
+2021-03-16 14:11:16.219 ERROR 15428 --- [http-nio-9090-exec-4] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:13:20.935 ERROR 15428 --- [http-nio-9090-exec-7] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:13:24.748  INFO 15428 --- [AsynchThread-23] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.749  INFO 15428 --- [AsynchThread-23] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.961  INFO 15428 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.961  INFO 15428 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.969  INFO 15428 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.969  INFO 15428 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.980  INFO 15428 --- [AsynchThread-26] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.980  INFO 15428 --- [AsynchThread-26] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.990 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.991 ERROR 15428 --- [AsynchThread-25] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:24.992  INFO 15428 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:24.992  INFO 15428 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:13:44.462 ERROR 15428 --- [AsynchThread-38] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:14:15.602 ERROR 15428 --- [http-nio-9090-exec-10] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:14:59.790 ERROR 15428 --- [AsynchThread-15] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:14:59.790 ERROR 15428 --- [AsynchThread-15] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:14:59.790 ERROR 15428 --- [AsynchThread-15] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:14:59.790 ERROR 15428 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:15:37.341 ERROR 15428 --- [http-nio-9090-exec-3] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:17:27.139 ERROR 15428 --- [AsynchThread-23] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:17:27.259  INFO 15428 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:17:27.260  INFO 15428 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:17:27.590  INFO 15428 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:17:27.591  INFO 15428 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:17:27.613 ERROR 15428 --- [AsynchThread-22] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:17:27.649 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.650 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.654 ERROR 15428 --- [AsynchThread-28] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:17:27.655  INFO 15428 --- [AsynchThread-28] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:17:27.655  INFO 15428 --- [AsynchThread-28] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:40.107  INFO 6752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 6752 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:20:40.109  INFO 6752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:20:40.993  INFO 6752 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9e7b65d6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:20:41.044  INFO 6752 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:20:41.252  INFO 6752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:20:41.258  INFO 6752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:20:41.258  INFO 6752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:20:41.369  INFO 6752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:20:41.369  INFO 6752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2021-03-16 14:20:41.494  INFO 6752 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:20:41.662  INFO 6752 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:20:41.664  INFO 6752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:20:41.670  INFO 6752 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:20:42.073  WARN 6752 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:20:42.274  INFO 6752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:20:42.284  INFO 6752 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.569 seconds (JVM running for 4.15)
+2021-03-16 14:20:47.212  INFO 6752 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:20:47.213  INFO 6752 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:20:47.214  INFO 6752 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 14:20:47.757 ERROR 6752 --- [AsynchThread-1] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:20:47.870  INFO 6752 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:47.870  INFO 6752 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:48.020 ERROR 6752 --- [AsynchThread-3] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:20:48.041  INFO 6752 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:48.042  INFO 6752 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:48.379 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.379 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.379 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380 ERROR 6752 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:20:48.380  INFO 6752 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:20:48.381  INFO 6752 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:21:26.427  INFO 4728 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 4728 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:21:26.429  INFO 4728 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:21:27.033  INFO 4728 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bb044846] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:21:27.083  INFO 4728 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:21:27.291  INFO 4728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:21:27.298  INFO 4728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:21:27.298  INFO 4728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:21:27.401  INFO 4728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:21:27.401  INFO 4728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 924 ms
+2021-03-16 14:21:27.525  INFO 4728 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:21:27.678  INFO 4728 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:21:27.679  INFO 4728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:21:27.683  INFO 4728 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:21:28.124  WARN 4728 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:21:28.337  INFO 4728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:21:28.346  INFO 4728 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.285 seconds (JVM running for 3.748)
+2021-03-16 14:21:30.966  INFO 4728 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:21:30.968  INFO 4728 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:21:30.969  INFO 4728 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-16 14:21:30.995 ERROR 4728 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : null was occured, probably because of the wrong parameters
+2021-03-16 14:22:05.112 ERROR 4728 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : Text '2021-03-5' could not be parsed at index 8 was occured, probably because of the wrong parameters
+2021-03-16 14:22:10.763 ERROR 4728 --- [http-nio-9090-exec-3] u.e.s.j.i.controller.RestWController     : null was occured, probably because of the wrong parameters
+2021-03-16 14:22:18.947  INFO 4728 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:18.949  INFO 4728 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.143  INFO 4728 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.143  INFO 4728 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.220  INFO 4728 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.220  INFO 4728 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.255  INFO 4728 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.255  INFO 4728 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.462 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.462 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.462 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.462 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.462 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463 ERROR 4728 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:19.463  INFO 4728 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:19.463  INFO 4728 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.415  INFO 4728 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.415  INFO 4728 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.448 ERROR 4728 --- [AsynchThread-11] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:22:35.611 ERROR 4728 --- [AsynchThread-13] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:22:35.628  INFO 4728 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.629  INFO 4728 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.956 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.956 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.956 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.956 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.956 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957 ERROR 4728 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:22:35.957  INFO 4728 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:22:35.957  INFO 4728 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:30.507  INFO 16816 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 16816 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:25:30.509  INFO 16816 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:25:31.206  INFO 16816 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bb044846] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:25:31.259  INFO 16816 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:25:31.486  INFO 16816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:25:31.492  INFO 16816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:25:31.492  INFO 16816 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:25:31.561  INFO 16816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:25:31.561  INFO 16816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 993 ms
+2021-03-16 14:25:31.682  INFO 16816 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:25:31.839  INFO 16816 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:25:31.840  INFO 16816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:25:31.844  INFO 16816 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:25:32.246  WARN 16816 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:25:32.479  INFO 16816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:25:32.488  INFO 16816 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.389 seconds (JVM running for 3.872)
+2021-03-16 14:25:32.642  INFO 16816 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:25:32.643  INFO 16816 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:25:32.652  INFO 16816 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-16 14:25:33.187 ERROR 16816 --- [AsynchThread-1] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:25:33.287  INFO 16816 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:33.287  INFO 16816 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:33.476 ERROR 16816 --- [AsynchThread-3] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:25:33.479  INFO 16816 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:33.479  INFO 16816 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.938 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.939 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.939 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.939 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.939 ERROR 16816 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:33.939  INFO 16816 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:33.939  INFO 16816 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.262 ERROR 16816 --- [AsynchThread-11] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:25:44.360  INFO 16816 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.360  INFO 16816 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.538  INFO 16816 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.539  INFO 16816 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.645 ERROR 16816 --- [AsynchThread-13] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:25:44.881 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.883 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.883 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.883 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.883 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884 ERROR 16816 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:25:44.884  INFO 16816 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:25:44.884  INFO 16816 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:39.991  INFO 16816 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:39.991  INFO 16816 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.216  INFO 16816 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.216  INFO 16816 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.228  INFO 16816 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.228  INFO 16816 --- [AsynchThread-25] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.338 ERROR 16816 --- [AsynchThread-23] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.597 ERROR 16816 --- [AsynchThread-24] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:26:40.598  INFO 16816 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:26:40.598  INFO 16816 --- [AsynchThread-24] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:15.955  INFO 16816 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:15.956  INFO 16816 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.091  INFO 16816 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.091  INFO 16816 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.175  INFO 16816 --- [AsynchThread-35] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.175  INFO 16816 --- [AsynchThread-35] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.242 ERROR 16816 --- [AsynchThread-33] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.507 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.508 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.508 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.508 ERROR 16816 --- [AsynchThread-34] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:27:16.508  INFO 16816 --- [AsynchThread-34] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.508  INFO 16816 --- [AsynchThread-34] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:27:16.511  INFO 16816 --- [AsynchThread-6] u.e.s.j.i.service.WordService            : invocation of getDocument
+2021-03-16 14:27:16.765  INFO 16816 --- [AsynchThread-6] u.e.s.j.i.c.DocumentConfiguration        : Were entered into createTablesWithData method of ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.DocumentConfiguration
+2021-03-16 14:27:16.842  WARN 16816 --- [AsynchThread-6] u.e.s.j.i.c.DocumentConfiguration        : ClimeaCellhave null-arrays in (forecast) ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.DocumentConfiguration
+2021-03-16 14:27:16.858  INFO 16816 --- [AsynchThread-6] u.e.s.j.i.service.WordService            : exiting from getDocument
+2021-03-16 14:29:37.147  INFO 16816 --- [AsynchThread-7] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.147  INFO 16816 --- [AsynchThread-7] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.318  INFO 16816 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.318  INFO 16816 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.414 ERROR 16816 --- [AsynchThread-2] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:29:37.423  INFO 16816 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.423  INFO 16816 --- [AsynchThread-3] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777 ERROR 16816 --- [AsynchThread-8] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:29:37.777  INFO 16816 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:29:37.778  INFO 16816 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:30:15.401 ERROR 16816 --- [http-nio-9090-exec-10] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:30:18.485 ERROR 16816 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:30:25.393 ERROR 16816 --- [http-nio-9090-exec-2] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:30:33.967 ERROR 16816 --- [http-nio-9090-exec-4] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:31:57.995 ERROR 16816 --- [http-nio-9090-exec-6] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:37:37.221  INFO 12868 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 12868 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:37:37.226  INFO 12868 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:37:38.006  INFO 12868 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4672c46e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:37:38.055  INFO 12868 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:37:38.272  INFO 12868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:37:38.279  INFO 12868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:37:38.279  INFO 12868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:37:38.382  INFO 12868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:37:38.382  INFO 12868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2021-03-16 14:37:38.503  INFO 12868 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:37:38.668  INFO 12868 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:37:38.668  INFO 12868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:37:38.673  INFO 12868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:37:39.058  WARN 12868 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:37:39.273  INFO 12868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:37:39.282  INFO 12868 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.406 seconds (JVM running for 3.814)
+2021-03-16 14:37:44.610  INFO 12868 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:37:44.611  INFO 12868 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:37:44.612  INFO 12868 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-03-16 14:37:45.517 ERROR 12868 --- [http-nio-9090-exec-1] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:38:02.788  INFO 12868 --- [AsynchThread-9] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:02.791  INFO 12868 --- [AsynchThread-9] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.008  INFO 12868 --- [AsynchThread-10] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.008  INFO 12868 --- [AsynchThread-10] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.021  INFO 12868 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.021  INFO 12868 --- [AsynchThread-8] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.121 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.122 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.123 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.123 ERROR 12868 --- [AsynchThread-11] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:03.123  INFO 12868 --- [AsynchThread-11] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.123  INFO 12868 --- [AsynchThread-11] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.930  INFO 12868 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:03.930  INFO 12868 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.655  INFO 12868 --- [AsynchThread-18] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.655  INFO 12868 --- [AsynchThread-18] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.667  INFO 12868 --- [AsynchThread-19] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.667  INFO 12868 --- [AsynchThread-19] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.856  INFO 12868 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.857  INFO 12868 --- [AsynchThread-22] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:19.858 ERROR 12868 --- [AsynchThread-20] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:38:20.193 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.193 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.193 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.193 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.193 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194 ERROR 12868 --- [AsynchThread-21] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:20.194  INFO 12868 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:20.194  INFO 12868 --- [AsynchThread-21] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:30.508 ERROR 12868 --- [http-nio-9090-exec-4] u.e.s.j.i.controller.RestWController     : null was occured, probably because of the wrong parameters
+2021-03-16 14:38:35.341  INFO 12868 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:35.341  INFO 12868 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:35.357 ERROR 12868 --- [AsynchThread-28] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:38:35.534 ERROR 12868 --- [AsynchThread-30] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:38:35.546  INFO 12868 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:35.547  INFO 12868 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.909 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.910 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.910 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.910 ERROR 12868 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:38:35.910  INFO 12868 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:38:35.910  INFO 12868 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:25.171  INFO 19824 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Starting DemoApplication using Java 12.0.1 on DESKTOP-593QNAF with PID 19824 (D:\javaProjects\JavaSpringBootNCRest\target\classes started by orel7 in D:\javaProjects\JavaSpringBootNCRest)
+2021-03-16 14:47:25.173  INFO 19824 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : No active profile set, falling back to default profiles: default
+2021-03-16 14:47:25.952  INFO 19824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$374c7c0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-16 14:47:25.991  INFO 19824 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-03-16 14:47:26.204  INFO 19824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2021-03-16 14:47:26.211  INFO 19824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-16 14:47:26.211  INFO 19824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-16 14:47:26.301  INFO 19824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-16 14:47:26.301  INFO 19824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1066 ms
+2021-03-16 14:47:26.436  INFO 19824 --- [main] u.e.s.j.i.service.AerisWeatherS          : was created the bean of service AerisWeather
+2021-03-16 14:47:26.594  INFO 19824 --- [main] u.e.s.j.i.configuration.AsyncConfigure   : AsyncExecutor created
+2021-03-16 14:47:26.594  INFO 19824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService
+2021-03-16 14:47:26.600  INFO 19824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'asyncExecutor'
+2021-03-16 14:47:26.999  WARN 19824 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-03-16 14:47:27.213  INFO 19824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-16 14:47:27.229  INFO 19824 --- [main] u.e.s.j.ilchenkoYegor.DemoApplication    : Started DemoApplication in 2.504 seconds (JVM running for 3.904)
+2021-03-16 14:47:35.144  INFO 19824 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-16 14:47:35.145  INFO 19824 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-16 14:47:35.147  INFO 19824 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-16 14:47:35.674 ERROR 19824 --- [AsynchThread-1] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:47:35.962  INFO 19824 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:35.962  INFO 19824 --- [AsynchThread-5] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:35.997 ERROR 19824 --- [AsynchThread-3] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:47:36.050  INFO 19824 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:36.050  INFO 19824 --- [AsynchThread-2] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:36.559 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.559 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.559 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560 ERROR 19824 --- [AsynchThread-4] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:36.560  INFO 19824 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:36.561  INFO 19824 --- [AsynchThread-4] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:40.494 ERROR 19824 --- [AsynchThread-11] u.e.s.j.i.service.AerisWeatherS          : nullwas occured in method getTodayWeather 
+2021-03-16 14:47:40.547  INFO 19824 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:40.547  INFO 19824 --- [AsynchThread-12] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:40.668  INFO 19824 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:40.669  INFO 19824 --- [AsynchThread-15] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:40.761 ERROR 19824 --- [AsynchThread-13] u.e.s.j.i.service.ClimeaCellS            : A JSONArray text must start with '[' at 1 [character 2 line 1] was occured in method getFutureWeather
+2021-03-16 14:47:41.109 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.109 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.109 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.109 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.109 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110 ERROR 19824 --- [AsynchThread-14] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:41.110  INFO 19824 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:41.110  INFO 19824 --- [AsynchThread-14] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:44.512 ERROR 19824 --- [http-nio-9090-exec-3] u.e.s.j.i.controller.RestWController     : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 were occured wrong parameters java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 method weatherService
+2021-03-16 14:47:52.029  INFO 19824 --- [AsynchThread-28] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.029  INFO 19824 --- [AsynchThread-28] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.073  INFO 19824 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.073  INFO 19824 --- [AsynchThread-29] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.222  INFO 19824 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.223  INFO 19824 --- [AsynchThread-32] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.364  INFO 19824 --- [AsynchThread-30] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.364  INFO 19824 --- [AsynchThread-30] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.575 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.576 ERROR 19824 --- [AsynchThread-31] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:47:52.576  INFO 19824 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:47:52.576  INFO 19824 --- [AsynchThread-31] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.141  INFO 19824 --- [AsynchThread-39] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.141  INFO 19824 --- [AsynchThread-39] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.158  INFO 19824 --- [AsynchThread-38] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.158  INFO 19824 --- [AsynchThread-38] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.371  INFO 19824 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.371  INFO 19824 --- [AsynchThread-1] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.458  INFO 19824 --- [AsynchThread-40] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.458  INFO 19824 --- [AsynchThread-40] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "today" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.787 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.787 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.787 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.787 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.787 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788 ERROR 19824 --- [AsynchThread-6] u.e.s.j.i.service.VisualCrossingWS       : empty String was occured in method toParse (using CSV records) some problems with data on API mainly the problem
+2021-03-16 14:49:35.788  INFO 19824 --- [AsynchThread-6] u.e.s.j.i.c.WeatherConfigurations        : entered into static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
+2021-03-16 14:49:35.788  INFO 19824 --- [AsynchThread-6] u.e.s.j.i.c.WeatherConfigurations        : exited from static function "futureWeather" in ua.edu.sumdu.j2ee.ilchenkoYegor.configuration.WeatherConfigurations
